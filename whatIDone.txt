@@ -2,4 +2,4 @@ https://www.youtube.com/watch?v=XdtbRkN97go&t=1254s
 
 1. Tworzę projekt online Spring Initializer > Rozpakowuję i otwieram.
 2. Utworzyłem klasy + gettery i settery
-3. Do rozpoczęcia - tworzenie klas API
+3. Utworzyłem klasy API - GET i POST

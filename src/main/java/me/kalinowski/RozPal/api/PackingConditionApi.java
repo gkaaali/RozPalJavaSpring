@@ -21,8 +21,8 @@ public class PackingConditionApi {
     public PackingConditionApi(){
         condition = new ArrayList<>();
         condition.add(new PackingCondition(1, "good"));
-        condition.add(new PackingCondition(1, "repair"));
-        condition.add(new PackingCondition(1, "broken"));
+        condition.add(new PackingCondition(2, "repair"));
+        condition.add(new PackingCondition(3, "broken"));
     }
 
     @GetMapping("/all")

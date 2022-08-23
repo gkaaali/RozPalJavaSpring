@@ -34,13 +34,13 @@ public class TransactionsApi {
     public Boolean addTransaction (@RequestBody Transactions transactions){
         return addTransaction(transactions);
     }
-
-    @PostMapping
+//
+    @PutMapping
     public Boolean updateTransaction (@RequestBody Transactions transactions){
         return addTransaction(transactions);
     }
 
-    @PostMapping
+    @DeleteMapping
     public Boolean deleteTransaction (@RequestParam int transactionId){
         return deleteTransaction(transactionId);
     }

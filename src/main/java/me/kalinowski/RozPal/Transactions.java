@@ -1,28 +1,26 @@
 package me.kalinowski.RozPal;
 
-import java.util.Date;
-
 public class Transactions {
     public int id;
     public String supplierId;
     public String recipientId;
     public String deliveryDate;
     public String documentNumber;
-    public int packingIdOneGood;
+    public int packingOneIdGood;
     public int quantityPackingOneGood;
     public int quantityPackingOneRepair;
     public int quantityPackingOneBroken;
-    public int packingIdTwoGood;
+    public int packingTwoIdGood;
     public int quantityPackingTwoGood;
     public int quantityPackingTwoRepair;
     public int quantityPackingTwoBroken;
 
-    public int getPackingIdOneGood() {
-        return packingIdOneGood;
+    public int getPackingOneIdGood() {
+        return packingOneIdGood;
     }
 
-    public void setPackingIdOneGood(int packingIdOneGood) {
-        this.packingIdOneGood = packingIdOneGood;
+    public void setPackingOneIdGood(int packingOneIdGood) {
+        this.packingOneIdGood = packingOneIdGood;
     }
 
     public int getQuantityPackingOneRepair() {
@@ -33,12 +31,12 @@ public class Transactions {
         this.quantityPackingOneRepair = quantityPackingOneRepair;
     }
 
-    public int getPackingIdTwoGood() {
-        return packingIdTwoGood;
+    public int getPackingTwoIdGood() {
+        return packingTwoIdGood;
     }
 
-    public void setPackingIdTwoGood(int packingIdTwoGood) {
-        this.packingIdTwoGood = packingIdTwoGood;
+    public void setPackingTwoIdGood(int packingTwoIdGood) {
+        this.packingTwoIdGood = packingTwoIdGood;
     }
 
     public int getQuantityPackingTwoRepair() {
@@ -51,17 +49,17 @@ public class Transactions {
 
     public Transactions(){}
 
-    public Transactions(int id, String supplierId, String recipientId, String deliveryDate, String documentNumber, int packingIdOneGood, int quantityPackingOneGood, int quantityPackingOneRepair, int quantityPackingOneBroken, int packingIdTwoGood, int quantityPackingTwoGood, int quantityPackingTwoRepair, int quantityPackingTwoBroken) {
+    public Transactions(int id, String supplierId, String recipientId, String deliveryDate, String documentNumber, int packingIdOneGood, int quantityPackingOneGood, int quantityPackingOneRepair, int quantityPackingOneBroken, int packingTwoIdGood, int quantityPackingTwoGood, int quantityPackingTwoRepair, int quantityPackingTwoBroken) {
         this.id = id;
         this.supplierId = supplierId;
         this.recipientId = recipientId;
         this.deliveryDate = deliveryDate;
         this.documentNumber = documentNumber;
-        this.packingIdOneGood = packingIdOneGood;
+        this.packingOneIdGood = packingIdOneGood;
         this.quantityPackingOneGood = quantityPackingOneGood;
         this.quantityPackingOneRepair = quantityPackingOneRepair;
         this.quantityPackingOneBroken = quantityPackingOneBroken;
-        this.packingIdTwoGood = packingIdTwoGood;
+        this.packingTwoIdGood = packingTwoIdGood;
         this.quantityPackingTwoGood = quantityPackingTwoGood;
         this.quantityPackingTwoRepair = quantityPackingTwoRepair;
         this.quantityPackingTwoBroken = quantityPackingTwoBroken;
